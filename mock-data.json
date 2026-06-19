@@ -1,0 +1,11 @@
+{"system":"You are a clinical wellness coach. Always cite the source guideline (ADA, JNC-8, WHO). Refuse diagnosis claims.","mock_response":"HbA1c 7.2% is above the ADA-recommended <7.0% target. Per ADA 2025 guidelines: 1) reduce simple carbs (target <130g/day), 2) 150 min/week moderate aerobic, 3) recheck in 12 weeks. Source: ADA Standards of Care 2025 §6.","screens":[
+{"title":"Login","html":"<input class=input placeholder=Username><input class=input placeholder=Password type=password style=margin-top:.5rem><button class=\"btn btn-primary\" style=margin-top:.5rem>Sign In</button>"},
+{"title":"Registration","html":"<input class=input placeholder=Gender><input class=input placeholder=Age style=margin-top:.5rem><input class=input placeholder=Height(cm) style=margin-top:.5rem><input class=input placeholder=Weight(kg) style=margin-top:.5rem><button class=\"btn btn-primary\" style=margin-top:.5rem>Submit</button>"},
+{"title":"Dashboard","html":"<div class=row><span class=chip>BMI 24</span><span class=chip>Body Fat 25%</span><span class=chip>Target 2300 kCal</span></div><div class=dim style=margin-top:.5rem>Today: 1450/2300 kCal · 45 min activity · 1.2L water</div>"},
+{"title":"Exercise","html":"Target 2500 cal · Done 2300 cal · 55 min<br><button class=btn style=margin-top:.5rem>+ Add Workout</button>"},
+{"title":"Diet","html":"Target 2700 kCal · Logged 2300 kCal<br><button class=btn style=margin-top:.5rem>+ Add Meal</button>"},
+{"title":"Cycling","html":"Target 2700 cal · Done 2300 cal · 30 min<br><button class=btn style=margin-top:.5rem>+ Log Ride</button>"},
+{"title":"Statistics","html":"Last 7 days · Target vs Actual<br><div class=dim>Download: <button class=btn>PDF</button> <button class=btn>Excel</button></div>"},
+{"title":"Social Sharing","html":"<button class=btn>Share to Feed</button> <button class=btn>Share to Group</button>"},
+{"title":"Alerts","html":"<div class=banner>Diet target 3500 kCal — need 1200 more</div><div class=banner>Workout target 2500 cal — need 500 more</div>"}
+]}

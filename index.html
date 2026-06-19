@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Fitness App — AI Wellness Coach</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"></head>
+<body><header>
+<div><h1>Fitness App — AI Wellness Coach</h1><div class="tagline">9-screen consumer fitness prototype · multi-agent coach · clinical-guideline RAG</div></div>
+<button id="theme-toggle" class="theme-toggle">☾ Dark</button>
+</header><main>
+<div id="ai-banner" class="banner" style="display:none"></div>
+<div class="row" style="margin-bottom:1rem">
+  <span class="dim">Live AI keys:</span>
+  <button class="btn btn-ghost" onclick="app.setKey('anthropic')">+ Claude</button>
+  <button class="btn btn-ghost" onclick="app.setKey('gemini')">+ Gemini</button>
+  <button class="btn btn-ghost" onclick="app.setKey('grok')">+ Grok</button>
+</div>
+<div class="row" style="margin-bottom:1rem">
+  <button class="btn" onclick="show(0)">Login</button>
+  <button class="btn" onclick="show(1)">Register</button>
+  <button class="btn" onclick="show(2)">Dashboard</button>
+  <button class="btn" onclick="show(3)">Exercise</button>
+  <button class="btn" onclick="show(4)">Diet</button>
+  <button class="btn" onclick="show(5)">Cycling</button>
+  <button class="btn" onclick="show(6)">Stats</button>
+  <button class="btn" onclick="show(7)">Share</button>
+  <button class="btn" onclick="show(8)">Alerts</button>
+</div>
+<div id="screen" class="card"></div>
+<div class="card" style="margin-top:1rem"><h3>🤖 AI Wellness Coach</h3>
+  <textarea id="q" class="textarea" rows="2" placeholder="Ask: my HbA1c is 7.2, what should I do?"></textarea>
+  <button class="btn btn-primary" style="margin-top:.5rem" onclick="askCoach()">Ask Coach</button>
+  <div id="coach-resp" class="dim" style="margin-top:.5rem;font-size:.85rem"></div></div>
+</main>
+<script src="app.js"></script><script src="page.js"></script>
+</body></html>

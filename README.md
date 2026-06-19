@@ -24,3 +24,16 @@ A current take would replace static wireframes with: Health Connect / Google Fit
 ---
 Author: **Vittobha Vignesh S** · [Portfolio](https://vittobh.github.io) · [GitHub](https://github.com/vittobh)
 License: MIT
+
+---
+
+## 🚀 Live Prototype
+**[https://vittobh.github.io/sample-fitness-app-wireframes/](https://vittobh.github.io/sample-fitness-app-wireframes/)**
+
+Working front-end with light + dark mode (toggle in header). Mock backend by default; add an Anthropic/Gemini/Grok key to browser localStorage to attempt live calls.
+
+## 🤖 AI Use Cases (2026)
+See **[AI_USE_CASES.md](AI_USE_CASES.md)** — agentic upgrade plan, OSS stack, concrete prompts, evals.
+
+## ⚠️ Limitations
+See **[LIMITATIONS.md](LIMITATIONS.md)** — what's mocked vs needs API keys / server proxy.
